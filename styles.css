@@ -1,0 +1,59 @@
+.display{
+    display: flex;
+    height: 150px;
+    width:600px;
+    border: 2px solid black;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+
+    
+
+}
+
+.bigcont{
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ border: 10px solid black;
+
+
+}
+
+.container{
+}
+
+button{
+    height: 150px;
+    width:150px;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+
+}
+.num{
+    background-color: rgb(230, 160, 209);
+
+}
+.operator{
+    background-color: lightblue;
+}
+.equal,.clear{
+    background-color: rgb(159, 238, 176);
+}
+button:hover { 
+    color: blueviolet;
+    cursor: pointer; 
+    border: 10px; 
+  } 
+
+
+
+.r1,.r2,.r3,.r4{
+    display: flex;
+    justify-content: center;
+
+}
